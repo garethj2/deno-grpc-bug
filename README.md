@@ -13,3 +13,5 @@ Here are the steps...
 - run `npm run client`. This will start the client using Deno.
 
 The client should run forever printing out responses. Instead it'll only run for under a minute because of this issue.
+
+FYI. I'm running all of this on my Macbook Pro (M2).
