@@ -1,0 +1,21 @@
+{
+  "name": "deno-grpc-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "deno run -A ./example/client.ts",
+    "server": "node ./example/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@code.siemens.com:j2innovations/poc/deno-grpc-bug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.10.10",
+    "@grpc/proto-loader": "^0.7.13",
+    "minimist": "^1.2.8"
+  }
+}
